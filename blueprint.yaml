@@ -1,5 +1,5 @@
 name: Docker Host Build - Ubuntu
-version: v14
+version: v15
 # inputs: {}
 inputs:
   env:
@@ -14,7 +14,7 @@ resources:
   Cloud_Machine_1:
     type: Cloud.Machine
     properties:
-      image: OAI-Base-Image
+      image: OAI-Base-Image-test
       flavor: OAI-R4-Small
       remoteAccess:
         authentication: keyPairName
